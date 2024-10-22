@@ -1,25 +1,10 @@
-# 📦 Streamlit App Starter Kit 
-```
-⬆️ (Replace above with your app's name)
-```
+# CMSE830_midproject
+This repo contains the streamlit dashboard of my mid term project for CMSE 830 course
+Overview
+This project is a dashboard for Credit Risk Analysis, developed using Streamlit. The dashboard provides insights into credit risk through various data visualizations, including credit score distribution, default rate by loan purpose, correlation heatmaps, and interactive plots with filters. The goal is to help users understand relationships between factors like loan amount, income, credit score, and other features affecting credit risk.
 
-Description of the app ...
-
-## Demo App
-
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-starter-kit.streamlit.app/)
-
-## GitHub Codespaces
-
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
-
-## Section Heading
-
-This is filler text, please replace this with text for this section.
-
-## Further Reading
-
-This is filler text, please replace this with a explanatory text about further relevant resources for this repo
-- Resource 1
-- Resource 2
-- Resource 3
+Key Features:
+Interactive Visualizations: Visualize the distribution of loan amounts, default rates, and correlations between variables.
+Smoothing Techniques & Trend Analysis: Analyze trends in credit risk factors using regression and smoothing techniques.
+Regression Analysis: Understand the relationships between different factors like income, loan amounts, and credit score.
+Forecasting & Data Trends: Predict potential credit risk based on historical data.
