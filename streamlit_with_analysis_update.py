@@ -14,10 +14,10 @@ import os
 warnings.filterwarnings("ignore")
 
 
-directory = 'cmse830_midterm_project' 
+# directory = 'cmse830_midterm_project' 
 dfs = []
 for i in range(9):
-    file_path = os.path.join(directory, f'chunk_{i}.csv')
+    file_path = os.path.join(f'chunk_{i}.csv')
     df = pd.read_csv(file_path)
     dfs.append(df)
 
