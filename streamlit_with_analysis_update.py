@@ -14,7 +14,7 @@ import os
 warnings.filterwarnings("ignore")
 
 
-directory = 'D:\Foundations_of_DataScience\Projects\Mid_project\Dataset10\CMSE830_midproject' 
+directory = 'cmse830_midterm_project' 
 dfs = []
 for i in range(9):
     file_path = os.path.join(directory, f'chunk_{i}.csv')
